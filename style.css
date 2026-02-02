@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #675AFE;
+}
+.wrapper{
+ background-color: #fff;
+ width: 370px;
+ padding: 30px;
+ border-radius: 7px;
+}
+
+.wrapper header{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.wrapper form{
+    margin: 40px 0 20px 0;
+}
+
+form:where(input,select,button){
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+form input{
+    border: 1px solid #999;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 17px;
+}
+
+form p{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+form input:focus{
+    border: #675AFE 2px solid;
+    padding: 0 14px;
+}
+
+form .droplist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.droplist .select-box{
+    display: flex;
+    width: 115px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+.select-box select{
+    width: auto;
+    border: none;
+    margin: 0 -5px 0 5px;
+}
+
+.select-box img{
+    max-width: 25px;
+}
+
+.droplist .icon{
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form .exchange-rate{
+    font-size: 17px;
+    margin: 20px 0 30px;
+}
+
+.Btn{
+    height: 52px;
+    color: #fff;
+    background-color: #675AFE;
+    font-size: 17px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.select-box select::-webkit-scrollbar{
+    width: 8px;
+}
+
+.select-box select::-webkit-scrollbar-track{
+    background-color: #fff;
+}
+
+.select-box select::-webkit-scrollbar-thumb{
+    background-color: #888;
+    border-radius: 8px;
+    border-right: 2px solid #fff;
+}
